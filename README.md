@@ -9,7 +9,7 @@ Incremental few-shot semantic segmentation (IFSS) aims to incrementally expand a
 The pipeline of the proposed method for IFSS is shown in Fig. 1. Dynamic memory aims to preserve features at two levels of granularity, reducing the model's tendency to forget base classes. Optimized sampling focuses on selecting valuable anchors and positive/negative samples. Combined with pixel-region contrastive learning of old class embeddings, it aids in calibrating and aligning old and new class features during the learning of new classes.
 
 <p align="center">
-<image src="source/fig1.JPG" width="650">
+<image src="source/fig1.jpg" width="650">
 <br/><font>Fig. 1. Overall schematics of the proposed incremental few-shot segmentation method.</font>
 </p>
 
