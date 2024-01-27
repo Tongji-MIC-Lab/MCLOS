@@ -41,14 +41,14 @@ Fig. 2 shows the qualitative comparisons between our method and PIFS. As the fig
 shows, our method provides more precise segmentation masks than PIFS.
 
 <p align="center">
-<image src="source/fig2.JPG" width="350">
+<image src="source/fig2.jpg" width="350">
 <br/><font>Fig. 2. The qualitative comparison between PIFS and ours.</font>
 </p>
 
 As shown in Fig. 3, the learned pixel embeddings by ours become more compact and well separated, suggesting that our method shapes a well-structured semantic feature space by employing pixel-region contrastive learning.
 
 <p align="center">
-<image src="source/fig3.JPG" width="350">
+<image src="source/fig3.jpg" width="350">
 <br/><font>Fig. 3. T-SNE visualization of features learned with (left) PIFS and (right) our method.</font>
 </p>
 
